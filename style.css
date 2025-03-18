@@ -280,7 +280,6 @@
   #card1 {
     background-image: url(sakshi\ di.png);
   }
-
   #card12 {
     background-image: url(drsk.png);
   }
@@ -309,6 +308,31 @@
     white-space: nowrap;
     margin-bottom: 20px;
     font-weight: 800;
+  }
+  .card1 {
+    height: 100%;
+    width: 27%;
+    background-color: blue;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: all ease 0.6s;
+  }
+  .card1:hover .overlay {
+    opacity: 1;
+  }
+  .card1:hover {
+    transform: rotate3d(-1, 1, 0, 20deg);
+  }
+  .overlay h2 {
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    font-weight: 800;
+    text-align: center;
   }
   .overlay p {
     color: #fff;
@@ -342,7 +366,7 @@
   #green-div img {
     height: 100%;
     object-fit: cover;
-    width: 14%;
+    width: 20%;
   }
   
   #page3 {
